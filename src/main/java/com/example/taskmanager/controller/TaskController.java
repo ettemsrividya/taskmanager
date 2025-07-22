@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 
 @RestController
-@RequestMapping("/tasks")
+@RequestMapping("/test")
 public class TaskController {
     private final Map<String, Task> tasks = new HashMap<>();
 
